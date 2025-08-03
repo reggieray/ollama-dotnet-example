@@ -64,7 +64,7 @@ Run the application from the terminal
 
 # Useful Links
 
-https://github.com/ollama/ollama
-https://hub.docker.com/r/ollama/ollama
-https://ollama.com/search
-https://github.com/awaescher/OllamaSharp
+* https://github.com/ollama/ollama
+* https://hub.docker.com/r/ollama/ollama
+* https://ollama.com/search
+* https://github.com/awaescher/OllamaSharp
