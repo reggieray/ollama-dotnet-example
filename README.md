@@ -14,7 +14,7 @@ Llama 3 is a series of powerful, open-source large language models (LLMs) develo
 
 # Prerequisites
 
-Docker Desktop
+* A installation of [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 # Getting started
 
@@ -59,8 +59,6 @@ while (true)
 Run the application from the terminal 
 
 `dotnet run --project .\ollama.demo\ollama.demo.csproj`
-
-
 
 # Useful Links
 
