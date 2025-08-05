@@ -1,28 +1,34 @@
 
-# Brief Intro
+# 📃 Overview
 
-This repo is a quick getting started into using AI models with dotnet locally.
+This repo is a quick getting started into using AI models locally with dotnet.
 
-**What is Ollama?**
+By the end of this guide, you’ll have a .NET console app that sends prompts to Llama 3 via Ollama and receives responses in real time.
 
-Ollama is an open-source tool that simplifies running large language models (LLMs) locally on your computer.
+**🤖 What is Ollama?**
 
+Ollama is an open-source runtime that makes it easy to run large language models (LLMs) locally on your machine. It handles model loading, execution, and exposes a simple API you can interact with from any language — including C#.
+- GitHub: https://github.com/ollama/ollama
+- Website: https://ollama.com
 
-**What is llama3?**
+**🦙 What is Llama 3?**
 
-Llama 3 is a series of powerful, open-source large language models (LLMs) developed and released by Meta AI.
+Llama 3 is a family of powerful open-source LLMs released by Meta AI in 2024. It is designed to be fast, capable, and efficient to run even on consumer-grade hardware.
 
-# Prerequisites
+You can browse other available models here: https://ollama.com/library
 
-* A installation of [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+# ⚙️ Prerequisites
 
-# Getting started
+* An installation of [Docker Desktop](https://www.docker.com/products/docker-desktop/) and assumption of how to run docker commands
+* .NET 6 or later
+
+# 🚀 Getting started
 
 The quickest and easiest way to get started is to use docker and pull Ollama.
 
 `docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama`
 
-In this example I will pull the `llama3` model. You find more models available [here](https://ollama.com/library)
+In this example I will pull the `llama3` model. You can find more models available [here](https://ollama.com/library)
 
 
 `docker exec -it ollama ollama run llama3`
@@ -60,9 +66,11 @@ Run the application from the terminal
 
 `dotnet run --project .\ollama.demo\ollama.demo.csproj`
 
-# Useful Links
+# 🔗 Useful Links
 
 * https://github.com/ollama/ollama
 * https://hub.docker.com/r/ollama/ollama
 * https://ollama.com/search
 * https://github.com/awaescher/OllamaSharp
+
+
